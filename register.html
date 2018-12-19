@@ -37,7 +37,10 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">@</span>
                             </div>
-                            <input class="form-control" type="text" placeholder="Email">
+                            <input class="form-control is-invalid" type="text" placeholder="Email">
+                            <div class="invalid-feedback">
+                                Emailを正しく入力してください。
+                            </div>
                         </div>
                         <!-- password -->
                         <div class="input-group mb-3">
@@ -63,15 +66,8 @@
                     <!-- card footer -->
                     <div class="card-footer p-4">
                         <div class="row">
-                            <div class="col-6">
-                                <button class="btn btn-block btn-facebook" type="button">
-                                    <span>facebook</span>
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button class="btn btn-block btn-twitter" type="button">
-                                    <span>twitter</span>
-                                </button>
+                            <div class="col-12">
+                                <a href="login.html" class="btn btn-outline-primary btn-block">Login</a>
                             </div>
                         </div>
                     </div>

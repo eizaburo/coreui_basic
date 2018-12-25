@@ -48,10 +48,10 @@
                 <ul class="nav">
                     <li class="nav-title">Nav Title1</li>
                     <li class="nav-item">
-                        <a href="user.html" class="nav-link"><i class="nav-icon cui-speedometer"></i>List</a>
+                        <a href="" class="nav-link"><i class="nav-icon cui-speedometer"></i>List</a>
                     </li>
                     <li class="nav-item">
-                        <a href="form.html" class="nav-link"><i class="nav-icon cui-speedometer"></i>Form</a>
+                            <a href="form.html" class="nav-link"><i class="nav-icon cui-speedometer"></i>Form</a>
                     </li>
                     <li class="nav-title">Nav Title2</li>
                     <li class="nav-item">
@@ -65,21 +65,47 @@
         <div class="main">
             <!-- パンくずメニュー -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
                 <li class="breadcrumb-item">
-                    <a href="">Dashboad</a>
+                    <a href="index.html">Home</a>
                 </li>
+                <li class="breadcrumb-item">
+                    <a href="user.html">ユーザー一覧</a>
+                </li>
+                <li class="breadcrumb-item">ユーザー編集</li>
             </ol>
             <!-- content -->
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-12">
+                    <div class="col-md-10">
                         <div class="card">
                             <div class="card-header">
-                                card-header
+                                ユーザー編集
                             </div>
                             <div class="card-body">
-                                card-body
+                                <form>
+                                    <div class="form-group row pb-3">
+                                        <label class="col-sm-2 col-form-label">ユーザーID</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" placeholder="ユーザーID">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row pb-3">
+                                        <label class="col-sm-2 col-form-label">ユーザー名</label>
+                                        <div class="col-sm-10">
+                                            <input type="name" class="form-control" placeholder="ユーザー名">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row pb-3">
+                                        <label class="col-sm-2 col-form-label">メールアドレス</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" placeholder="メールアドレス">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer text-right">
+                                <a class="btn btn-primary btn-sm" style="color:white" href="index.html">保存</a>
+                                <a class="btn btn-danger btn-sm" style="color:white" href="index.html">Delete</a>
                             </div>
                         </div>
                     </div>
